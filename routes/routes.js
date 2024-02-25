@@ -155,6 +155,21 @@ router.get('/delete/:id', (req,res) =>{
 
 });
 
+// about us
+router.get('/about', (req,res) =>{
+    res.render('about_us',{
+        title: 'About Us',
+    })
+
+})
+
+// contact us
+router.get('/contact', (req,res) =>{
+    res.render('contact',{
+        title: 'Contact Us',
+    })
+
+})
 
 //search user
 
